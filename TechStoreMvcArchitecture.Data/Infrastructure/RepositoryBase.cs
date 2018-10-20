@@ -99,7 +99,7 @@ namespace TechStoreMvcArchitecture.Data.Infrastructure
         /// <returns></returns>
         public virtual IEnumerable<T> GetList()
         {
-            return _dbSet.ToList<T>();
+            return _dbSet.AsEnumerable<T>();
         }
 
         /// <summary>

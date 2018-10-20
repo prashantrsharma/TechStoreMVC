@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using TechStoreMvcArchitecture.Data.Abstract;
 using TechStoreMvcArchitecture.Data.Infrastructure;
 using TechStoreMvcArchitecture.Model;
 

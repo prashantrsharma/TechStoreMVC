@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechStoreMvcArchitecture.Mo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechStoreMvcArchitecture.Api", "TechStoreMvcArchitecture.Api\TechStoreMvcArchitecture.Api.csproj", "{1C821CC7-AD6E-463A-BCA7-76AF47B155AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechStoreMvcArchitecture.Service", "TechStoreMvcArchitecture.Service\TechStoreMvcArchitecture.Service.csproj", "{4143F42B-001C-41BD-A967-B96937B6240C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1C821CC7-AD6E-463A-BCA7-76AF47B155AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C821CC7-AD6E-463A-BCA7-76AF47B155AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C821CC7-AD6E-463A-BCA7-76AF47B155AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4143F42B-001C-41BD-A967-B96937B6240C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4143F42B-001C-41BD-A967-B96937B6240C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4143F42B-001C-41BD-A967-B96937B6240C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4143F42B-001C-41BD-A967-B96937B6240C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

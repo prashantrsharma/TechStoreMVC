@@ -12,6 +12,7 @@ using Autofac.Integration.WebApi;
 using TechStoreMvcArchitecture.Api.Infrastructure;
 using TechStoreMvcArchitecture.Data.Infrastructure;
 using TechStoreMvcArchitecture.Data.Repositories;
+using TechStoreMvcArchitecture.Service.Services;
 
 namespace TechStoreMvcArchitecture.Api.App_Start
 {
@@ -37,7 +38,9 @@ namespace TechStoreMvcArchitecture.Api.App_Start
                 .AsImplementedInterfaces().InstancePerLifetimeScope();
 
             //Services
-
+            builder.RegisterAssemblyTypes(typeof(ProductService).Assembly)
+                .Where(t => t.Name.EndsWith("Service"))
+                .AsImplementedInterfaces().InstancePerLifetimeScope();
 
             //Set the dependency resolver to be Autofac.  
             IContainer container = builder.Build();

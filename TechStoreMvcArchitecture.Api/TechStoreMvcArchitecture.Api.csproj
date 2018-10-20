@@ -135,6 +135,10 @@
       <Project>{69357fa1-1461-4c5f-8212-1435224d041e}</Project>
       <Name>TechStoreMvcArchitecture.Model</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TechStoreMvcArchitecture.Service\TechStoreMvcArchitecture.Service.csproj">
+      <Project>{4143f42b-001c-41bd-a967-b96937b6240c}</Project>
+      <Name>TechStoreMvcArchitecture.Service</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
