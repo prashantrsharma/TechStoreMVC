@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using TechStoreMvcArchitecture.Data.Infrastructure;
 
-namespace TechStoreMvcArchitecture.Service.Services
+namespace TechStoreMvcArchitecture.Service.Abstract
 {
     public abstract class ServiceBase<T> where T : class
     {
